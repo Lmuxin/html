@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title>定位</title>
+		
+		<style type='text/css'>
+			
+			h2.t1{position:relative;   /*相对定位*/
+			left:-20px
+			}
+			
+			h2.t2{
+				
+				position:relative;
+				left:50px;
+		
+			}
+			
+			
+			h2.t3{position:absolute;   /*绝对定位*/
+			
+			left:100px;
+			right:150px
+			}
+			
+			
+		   p.p1{position:fixed;
+		   left:5px;
+		   top:5px;
+		   }	
+			
+			
+			p.p2{
+				position:fixed;
+				top:30px;
+				right:5px;
+				
+				
+			}
+			
+			
+			
+			
+			img{
+				
+				position:absolute;
+				clip:rect(0px 50px 200px 0px);/*把照片裁剪了*/
+				top:700px;
+				
+			}  /*设置图片的位置,也可以用5%*/
+			
+			img.top{vertical-align:text-top}/*垂直排列图片,放在文字的顶部*/
+			img.buttom{vertical-align:text-bottom}
+			
+			div{
+				
+				background-color:green;
+				width:140px;
+				height:150px;
+				overflow:scroll;   /*滚动条*   设置为overflow:auto也可以,overflow:hidden隐藏溢出的元素*/
+				
+			}
+			
+			
+			img.x{
+				
+				
+				
+				
+				position:absolute;
+				left:0px;
+				top:0px;
+				z-index:-1;   /*这个值改为1的话结果不一样*/
+			}
+			
+			
+			
+			
+			
+			
+			
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		<br />
+		<br />
+		<br />
+		<h2>这个是正常位置</h2>
+		<h2 class="t1"> 这个相对于正常位置向左移动 </h2>
+		<h2 class="t2">这个相对于正常位置 向右移动</h2>
+		<h2 class="t3">    这个是绝对定位</h2>
+		<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+		<p class="p1">    固定定位</p>
+
+		<p class="p2">固定定位i </p>
+		
+		
+		<img class="normal" src="f://4.jpg"/>
+		<p>
+		这是一副<img class="top" border=0 src=""/>位于段落中的图片
+		</p>
+		
+		<p>
+		这是一副<img class="boyyom" border=0 src=""/>位于段落中的图片
+		</p>
+			
+	
+	<img class="x" src="" />
+	<p> 默认的z-index是0,-1拥有更低的优先级</p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<div>
+			
+			这个属性定义溢出元素内容区的内容会如何处理。如果值为 scroll，不论是否需要，用户代理都会提供一种滚动机制。因此，有可能即使元素框中可以放下所有内容也会出现滚动条。默认值是 visible。
+		</div>
+		
+	</body>
+</html>

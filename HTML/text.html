@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title>文本操作</title>
+		<style type="text/css">
+			div{width:500px;}
+			
+			/*<!--设置每一段开头是否缩进-->*/
+			p{
+				text-indent :5em;
+				padding-left:5em;		
+			}
+		/*这是设置两个字之间的距离.但是运行怎么没效果呢*/
+			p.spread{word-spacing:30px;}
+			p.tight{word-spacing:-0.5em;}
+			
+			
+			
+			/*这是设置字母之间的间隔*/
+			
+			h1{letter-spacing:-0.5em;}
+			h2{letter-spacing:20px;}
+			
+			
+			/*字符转换*/
+			
+			h3{text-transform:uppercase;}
+				h4{text-transform:lowercase;}
+					h5{text-transform:capitalize;}/*首字母大写
+					
+					
+					/*文本装饰*/
+					h6{text-decoration:overline}
+				h7{text-decoration:line-through;}
+					h8{text-decoration:underline;}
+					h9{text-decoration:blink;}
+				a{text-decoration:none;}
+					
+					
+			
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		
+		<div>
+			
+			<p>     
+				 这是个什么段落呢
+			</p>
+			
+			
+		</div>
+		
+		<p class="spread">
+			 这是一个文本
+		</p>
+		
+		<p class="tight">这也是一个文本</p>
+		
+		    <h1>   wjiwjdi</h1>
+		    
+		    <h2>  hudhdhu</h2>
+		    
+		    <h3>  hudhdhu</h3>
+		    <h4> ABHEJHJE</h4>
+		    <h5>  hudhdhu</h5>
+		    
+		    
+		    <h6>   在文本上面划线</h6>
+		    <br />
+		    <h7>在文本中间划线</h7>
+		       <br />
+		    <h8>在文本下面划线</h8>
+		       <br />
+		    <h9>这个好像没有线</h9>
+		       <br />
+		    <a href="http://www.baidu.com">这是个链接 ,但是下面没有线标注</a>
+		    
+	</body>
+</html>

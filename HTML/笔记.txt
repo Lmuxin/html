@@ -1,0 +1,44 @@
+    <h1> 标题1  </h1>
+      <h2> 标题1  </h2>
+        <h3> 标题1  </h3> 从上往下字体会变小
+        
+   
+    <p>   段落   </p>
+    
+    超链接   <a href="http://www.baidu.com">百度链接</a>   //a和 href都不能换掉
+     
+     使用单双引号都可以 ,个别情况下 比如属性值本身就含有双引号,那么就必须使用单引号了,
+       name='John "ShotGun" Nelson'
+     
+     
+     
+    添加图片  <img src="f://1.jpg" heigth= "255" width="266"/>
+  
+    
+    换行    使用 br 可以换行,梦<br />之<br />都<br />  这家活没有结束标签   <br>和<br/>都可以
+    
+    添加水平线    <h1>这个示例中我们为网页加上了水平分割线,我们使用了 hr 标签.</h1>   <hr>和<hr/>都可以
+		                 <hr >
+		                 
+		                 
+   <b> 加粗文本</b> <br> <br>   <!用    strong代替b >
+
+   <i>  斜体  </i>   <br> <br>    <!用    em代替i    >
+
+
+    <code>  电脑自动输出  </code> <br> <br>
+
+  <sub>  下标  </sub>   和   <sup>   下标  </sup>
+  <br/>
+   
+    <big>这个文本字体放大</big>
+
+    
+    
+    <link> 标签定义了文档与外部资源之间的关系。
+<link> 标签通常用于链接到样式表:
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+    
+    

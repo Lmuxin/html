@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+		<style type="text/css">
+			
+			h3,h2,h1{
+				color:purple;
+				font:28px ;
+				font-family:Verdana;
+				background:gray;
+				padding:10px;
+				border:1px solid black;
+				
+			}
+			
+			
+			.t1{
+				
+				color:blue;     /*类选择器*/		
+			}
+			
+			
+			p.t2{
+				
+				color:yellow;   /*结合元素的类选择器*/
+				
+				
+			}
+			
+			#infor{color:green;
+			font-weight:bold;}   /*这个是ID选择器*/
+			
+			
+			
+			[title]
+			{
+				color:purple;   
+			}
+			
+			
+			a[href]  /*只改变a的href的颜色*/
+		{
+			color:red;
+		}
+			
+			
+			img[alt]
+			{
+				border:5px solid red;
+			}
+			
+			
+			planet[moons]{
+				color:red;
+			}
+			
+			
+			p[class~="important"]{color:red;}  /*部分匹配*/
+			
+			img[title~="figure"]{border:1px solid gray}
+			
+			
+			*[lang|="en"]
+			{color:red}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		<h1>  综合的标题</h1>
+		<h2>大家都i一样</h2>
+		<h3>还是一样</h3>
+		
+		
+		
+		<h4 class="t1"> 类选择就这样用</h4>
+		<p> 这是个普通的段落</p>
+		<p class="t2">这是用了选择器的段落</p>
+		
+		<h5 id="infor">我是用了ID选择器</h5>
+		<p  id="infor">我是个段落,我也是用了id选择器 </p>
+		
+		
+		<p title="jd">把标题变色</p>
+		<a title="ghdud" href="http://www.baidu.com">百度</a>
+		
+		
+		
+		<img src="f://11.jpg" alt="这个表情"/>
+		
+		
+		<br />
+		<br />
+		<br />
+		
+		<planet>这个不会变色</planet>
+		<planet moons=1>这个要变色</planet>
+		<planet moons=2>这个也要变色</planet>
+		
+		
+		
+		
+		
+		
+		
+		<p class="important waring"> 这个也可以匹配类importment</p>
+		
+		<img title="figure 1" src="f://12.jpg" />
+		<img title="figure 2"  src="f://13.jpg" />
+		<img  src="f://14.jpg" />
+		
+		
+		
+		<p lang="en">hellow</p>
+		<p lang="en-us">hellow</p>
+		<p  lang='en-au'>hellow</p>
+		<p>hellow</p>
+		
+		
+		
+		
+	</body>
+</html>

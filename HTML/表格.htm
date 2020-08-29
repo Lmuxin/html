@@ -1,0 +1,287 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+  <html>
+     <head>
+    
+     <title> 我的表格  </title>
+     
+
+     </head>
+
+            
+
+   <body>
+    
+
+        <table border=1>    <!设置边框为1>
+  <tr>
+    <th>Header1</th>
+    <th>Header2</th>
+ </tr>
+
+
+
+           <tr>   
+               <td> row1,cell 1</td>
+               <td> row1,cell 2</td>
+           </tr>
+  
+   <tr>   
+               <td> row2,cell 1</td>
+               <td> row2,cell 2</td>
+           </tr>
+  </table>
+
+
+
+
+        <table>    <!不设置边框>
+  
+
+
+
+           <tr>   
+               <td> 200</td>
+               <td> 400</td>
+           </tr>
+  
+   <tr>   
+               <td> 300</td>
+               <td> 500</td>
+           </tr>
+  </table>
+  
+  <h4>水平标题</h4>
+   <table  border=1>
+    <tr>
+      <th> Name</th>
+      <th>Tel</th>
+    </tr>
+
+   <tr> 
+     <td>bill</td>
+     <td>0882</td>
+<tr>
+ </table>
+  
+
+
+       <h4>垂直标题</h4>
+<table  border=1>
+       <tr>
+         <th>name</th>
+         <td>bill</td>
+      </tr>
+   
+  <tr>
+     <th> tel</th>
+     <td>0993</td>
+</tr>
+
+</table>
+<br>
+ <h4>  带表头的表格</h4>
+   <table  border=1 >
+     <caption> month saving </caption>   
+     <tr>
+        <th>month</th>
+        <th>saving</th>
+</tr>
+  
+   <tr>
+      <td>Jan</td>
+      <td>100</td>
+      </tr>
+   
+
+     <tr>
+        <td>Mar</td>
+       <td>300</td>
+   </tr>
+
+  </table>
+           
+     
+
+  <h4>  单元格跨两格的表格</h4>
+       <table  border=1>
+             <tr>
+                <th>name</th>
+                <th colspan=2> Tel</th>
+      </tr>
+   
+
+    <tr>
+       <td>bill</td>
+       <td>  0984 </td>
+       <td>   7847</td> 
+   </tr>
+        </table>
+
+       
+
+    <h4>  单元格跨两列的表格</h4>
+       <table  border=1>
+
+      <tr>  
+       <th>name</th>
+      <td>bill</td>
+     </tr>
+    <tr>
+      <th rowspan=2>tel</th>
+     <td> 84758</td>
+</tr>
+
+
+<tr>
+
+     <td>4785</td>
+</tr>
+   
+  </table>
+
+    <br>
+
+
+
+<h3>表中有表</h3>
+
+    <table  border=1>
+       <tr> 
+           <td>
+             <p>这是一个段落</p>
+             <p>又来一个段落</p>
+           </td>
+    
+      <td> 这是一个单元表格:
+         <table border=1>
+             <tr>
+                 <td>A</td>
+                 <td>B</td>
+             </tr>
+  
+
+    <tr>
+      <td>C</td>
+      <td>D</td>
+     </tr>
+
+     </table>
+   
+
+
+   <tr>
+
+     <td>这个单元格包含一个列表
+        <ul>
+        <li> 1...</li>
+          <li>2....</li>
+        <li>3......</li>
+      </ul>
+   </td>
+  
+    <td>hello</td>
+</tr>
+  </table>
+
+<br>
+
+
+
+   <h4> 没有单元格边距</h4>
+     <table border=1  >
+      <tr>
+         <td>111</td>
+        <td>2222</td>
+     </tr>
+    
+
+
+     <tr>
+       <td>6466</td>
+     <td>676767</td>
+    </tr>
+    </table>
+
+
+
+
+    
+
+   <h4> 单元格边距</h4>
+     <table border=1   cellpadding=10>
+      <tr>
+         <td>111</td>
+        <td>2222</td>
+     </tr>
+    
+
+
+     <tr>
+       <td>6466</td>
+     <td>676767</td>
+    </tr>
+    </table>
+
+<br>
+
+   
+
+
+     <h4>没有单元格间距</h4>
+      <table border=1>
+         <tr>
+           <td>hdjh</td>
+           <td>ewiei</td>
+         </tr>
+
+        <tr>
+           <td>rijf</td>
+           <td>4u58</td>
+         </tr>
+
+
+   </table>
+  
+
+    <br>
+   
+     <h4>单元格间距为0</h4>
+      <table border=1 cellspacing=0>
+         <tr>
+           <td>hdjh</td>
+           <td>ewiei</td>
+         </tr>
+
+        <tr>
+           <td>rijf</td>
+           <td>4u58</td>
+         </tr>
+
+
+   </table>
+
+      <br>
+
+
+      <h4>单元格间距为10</h4>
+      <table border=1 cellspacing=10>
+         <tr>
+           <td>hdjh</td>
+           <td>ewiei</td>
+         </tr>
+
+        <tr>
+           <td>rijf</td>
+           <td>4u58</td>
+         </tr>
+
+
+   </table>
+
+
+   </body>
+
+    </html>
